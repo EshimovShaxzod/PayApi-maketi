@@ -1,0 +1,101 @@
+/* contact_hero start */
+.contact_hero{
+    background-color: #f2f2f2;
+}
+.help{
+    padding: 50px 0;
+    padding-right: 550px;
+}
+.help h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+    color: #36536B;
+}
+/* contact_hero end */
+
+/* form start */
+.form{
+    background: #f2f2f2;
+}
+.sending_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    margin-bottom: 35px;
+    border: 0;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #36536B;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+}
+.input:focus{
+   border: 0;
+}
+.checked{
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   align-items: center;
+}
+.chec_input{
+   width: 20px;
+   height: 20px;
+}
+.checked p{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #36536B;
+}
+.submit_btn{
+    margin-top: 40px;
+    padding: 8px 32px;
+    border-radius: 24px;
+    border: 1px solid #36536B;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+    transition: .4s;
+}
+.submit_btn:hover{
+    color: #fff;
+    background-color: #36536B;
+}
+.company_logo h2{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #36536B;
+    text-align: center;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.company_list{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 5px;
+}
+.company_item{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+/* form end */
